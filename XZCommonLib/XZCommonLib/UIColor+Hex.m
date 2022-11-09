@@ -9,6 +9,20 @@
 
 @implementation UIColor (Hex)
 
++ (instancetype)colorWithHex:(int)hexNumber alpha:(CGFloat)alpha {
+    
+    if (hexNumber > 0xFFFFFF) return nil;
+    
+    CGFloat red   = ((hexNumber >> 16) & 0xFF) / 255.0;
+    CGFloat green = ((hexNumber >> 8) & 0xFF) / 255.0;
+    CGFloat blue  = (hexNumber & 0xFF) / 255.0;
+    
+    UIColor *color = [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
+    
+    return color;
+    
+}
+
 + (instancetype)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha{
     
     hexString = [[hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];

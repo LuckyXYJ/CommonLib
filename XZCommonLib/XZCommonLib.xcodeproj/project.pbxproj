@@ -12,6 +12,7 @@
 		301A1F9329BD7C5E002DCFD7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1F9229BD7C5E002DCFD7 /* UIColor+Hex.m */; };
 		301A1F9629BD7D24002DCFD7 /* UIView+Boundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1F9529BD7D24002DCFD7 /* UIView+Boundary.m */; };
 		301A1F9929BD7DB4002DCFD7 /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1F9829BD7DB4002DCFD7 /* UIUtils.m */; };
+		301A1F9C29BD7E8F002DCFD7 /* UIImage+ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		301A1F9529BD7D24002DCFD7 /* UIView+Boundary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Boundary.m"; sourceTree = "<group>"; };
 		301A1F9729BD7DB4002DCFD7 /* UIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
 		301A1F9829BD7DB4002DCFD7 /* UIUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
+		301A1F9A29BD7E8F002DCFD7 /* UIImage+ImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageHelper.h"; sourceTree = "<group>"; };
+		301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				301A1F9529BD7D24002DCFD7 /* UIView+Boundary.m */,
 				301A1F9729BD7DB4002DCFD7 /* UIUtils.h */,
 				301A1F9829BD7DB4002DCFD7 /* UIUtils.m */,
+				301A1F9A29BD7E8F002DCFD7 /* UIImage+ImageHelper.h */,
+				301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */,
 			);
 			path = XZCommonLib;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			files = (
 				301A1F8A29BD7B10002DCFD7 /* XZCommonLib.m in Sources */,
 				301A1F9329BD7C5E002DCFD7 /* UIColor+Hex.m in Sources */,
+				301A1F9C29BD7E8F002DCFD7 /* UIImage+ImageHelper.m in Sources */,
 				301A1F9629BD7D24002DCFD7 /* UIView+Boundary.m in Sources */,
 				301A1F9929BD7DB4002DCFD7 /* UIUtils.m in Sources */,
 			);

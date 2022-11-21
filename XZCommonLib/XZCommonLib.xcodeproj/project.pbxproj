@@ -41,6 +41,7 @@
 		301A1F9A29BD7E8F002DCFD7 /* UIImage+ImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageHelper.h"; sourceTree = "<group>"; };
 		301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageHelper.m"; sourceTree = "<group>"; };
 		301A1F9D29BD7F5B002DCFD7 /* Dimens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dimens.h; sourceTree = "<group>"; };
+		301A1F9E29BD7FAD002DCFD7 /* CommonFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonFont.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 				301A1F8829BD7B10002DCFD7 /* XZCommonLib.h */,
 				301A1F8929BD7B10002DCFD7 /* XZCommonLib.m */,
 				301A1F9D29BD7F5B002DCFD7 /* Dimens.h */,
+				301A1F9E29BD7FAD002DCFD7 /* CommonFont.h */,
 				301A1F9129BD7C5E002DCFD7 /* UIColor+Hex.h */,
 				301A1F9229BD7C5E002DCFD7 /* UIColor+Hex.m */,
 				301A1F9429BD7D24002DCFD7 /* UIView+Boundary.h */,

@@ -11,6 +11,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (ImageHelper)
 
++ (UIImage *)imageSizeWithScreenImage:(UIImage *)image;
+
++ (UIImage *)imageWithBgColor:(UIColor *)color;
+
++ (NSData *)zipNSDataWithImage:(UIImage *)sourceImage;
+
 @end
 
 NS_ASSUME_NONNULL_END

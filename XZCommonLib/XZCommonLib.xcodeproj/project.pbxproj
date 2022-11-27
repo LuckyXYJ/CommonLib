@@ -13,6 +13,7 @@
 		301A1F9629BD7D24002DCFD7 /* UIView+Boundary.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1F9529BD7D24002DCFD7 /* UIView+Boundary.m */; };
 		301A1F9929BD7DB4002DCFD7 /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1F9829BD7DB4002DCFD7 /* UIUtils.m */; };
 		301A1F9C29BD7E8F002DCFD7 /* UIImage+ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */; };
+		301A1FA129BD8062002DCFD7 /* XZConverseUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1FA029BD8062002DCFD7 /* XZConverseUIUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,8 @@
 		301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageHelper.m"; sourceTree = "<group>"; };
 		301A1F9D29BD7F5B002DCFD7 /* Dimens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dimens.h; sourceTree = "<group>"; };
 		301A1F9E29BD7FAD002DCFD7 /* CommonFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonFont.h; sourceTree = "<group>"; };
+		301A1F9F29BD8062002DCFD7 /* XZConverseUIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZConverseUIUtils.h; sourceTree = "<group>"; };
+		301A1FA029BD8062002DCFD7 /* XZConverseUIUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZConverseUIUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				301A1F9829BD7DB4002DCFD7 /* UIUtils.m */,
 				301A1F9A29BD7E8F002DCFD7 /* UIImage+ImageHelper.h */,
 				301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */,
+				301A1F9F29BD8062002DCFD7 /* XZConverseUIUtils.h */,
+				301A1FA029BD8062002DCFD7 /* XZConverseUIUtils.m */,
 			);
 			path = XZCommonLib;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				301A1F9329BD7C5E002DCFD7 /* UIColor+Hex.m in Sources */,
 				301A1F9C29BD7E8F002DCFD7 /* UIImage+ImageHelper.m in Sources */,
 				301A1F9629BD7D24002DCFD7 /* UIView+Boundary.m in Sources */,
+				301A1FA129BD8062002DCFD7 /* XZConverseUIUtils.m in Sources */,
 				301A1F9929BD7DB4002DCFD7 /* UIUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

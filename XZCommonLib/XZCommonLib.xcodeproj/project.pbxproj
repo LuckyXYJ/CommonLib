@@ -45,6 +45,7 @@
 		301A1F9E29BD7FAD002DCFD7 /* CommonFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonFont.h; sourceTree = "<group>"; };
 		301A1F9F29BD8062002DCFD7 /* XZConverseUIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZConverseUIUtils.h; sourceTree = "<group>"; };
 		301A1FA029BD8062002DCFD7 /* XZConverseUIUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZConverseUIUtils.m; sourceTree = "<group>"; };
+		301A1FA229BD8140002DCFD7 /* BaseColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseColor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 				301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */,
 				301A1F9F29BD8062002DCFD7 /* XZConverseUIUtils.h */,
 				301A1FA029BD8062002DCFD7 /* XZConverseUIUtils.m */,
+				301A1FA229BD8140002DCFD7 /* BaseColor.h */,
 			);
 			path = XZCommonLib;
 			sourceTree = "<group>";

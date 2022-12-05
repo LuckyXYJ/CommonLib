@@ -15,6 +15,7 @@
 		301A1F9C29BD7E8F002DCFD7 /* UIImage+ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1F9B29BD7E8F002DCFD7 /* UIImage+ImageHelper.m */; };
 		301A1FA129BD8062002DCFD7 /* XZConverseUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1FA029BD8062002DCFD7 /* XZConverseUIUtils.m */; };
 		301A1FA529BD8336002DCFD7 /* XZDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1FA429BD8336002DCFD7 /* XZDevice.m */; };
+		301A1FA829BD83D7002DCFD7 /* UIButton+PrivateValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1FA729BD83D7002DCFD7 /* UIButton+PrivateValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		301A1FA229BD8140002DCFD7 /* BaseColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseColor.h; sourceTree = "<group>"; };
 		301A1FA329BD8336002DCFD7 /* XZDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZDevice.h; sourceTree = "<group>"; };
 		301A1FA429BD8336002DCFD7 /* XZDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZDevice.m; sourceTree = "<group>"; };
+		301A1FA629BD83D7002DCFD7 /* UIButton+PrivateValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+PrivateValue.h"; sourceTree = "<group>"; };
+		301A1FA729BD83D7002DCFD7 /* UIButton+PrivateValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PrivateValue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				301A1FA029BD8062002DCFD7 /* XZConverseUIUtils.m */,
 				301A1FA329BD8336002DCFD7 /* XZDevice.h */,
 				301A1FA429BD8336002DCFD7 /* XZDevice.m */,
+				301A1FA629BD83D7002DCFD7 /* UIButton+PrivateValue.h */,
+				301A1FA729BD83D7002DCFD7 /* UIButton+PrivateValue.m */,
 			);
 			path = XZCommonLib;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				301A1F9629BD7D24002DCFD7 /* UIView+Boundary.m in Sources */,
 				301A1FA129BD8062002DCFD7 /* XZConverseUIUtils.m in Sources */,
 				301A1F9929BD7DB4002DCFD7 /* UIUtils.m in Sources */,
+				301A1FA829BD83D7002DCFD7 /* UIButton+PrivateValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

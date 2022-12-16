@@ -18,6 +18,7 @@
 		301A1FA829BD83D7002DCFD7 /* UIButton+PrivateValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1FA729BD83D7002DCFD7 /* UIButton+PrivateValue.m */; };
 		301A1FAB29BD84C9002DCFD7 /* NSString+Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1FAA29BD84C9002DCFD7 /* NSString+Calculation.m */; };
 		301A1FAE29BD8570002DCFD7 /* NSString+RegulerExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1FAD29BD8570002DCFD7 /* NSString+RegulerExpression.m */; };
+		301A1FB129BD85E9002DCFD7 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A1FB029BD85E9002DCFD7 /* NSDate+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		301A1FAA29BD84C9002DCFD7 /* NSString+Calculation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Calculation.m"; sourceTree = "<group>"; };
 		301A1FAC29BD8570002DCFD7 /* NSString+RegulerExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RegulerExpression.h"; sourceTree = "<group>"; };
 		301A1FAD29BD8570002DCFD7 /* NSString+RegulerExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegulerExpression.m"; sourceTree = "<group>"; };
+		301A1FAF29BD85E9002DCFD7 /* NSDate+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		301A1FB029BD85E9002DCFD7 /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				301A1FAA29BD84C9002DCFD7 /* NSString+Calculation.m */,
 				301A1FAC29BD8570002DCFD7 /* NSString+RegulerExpression.h */,
 				301A1FAD29BD8570002DCFD7 /* NSString+RegulerExpression.m */,
+				301A1FAF29BD85E9002DCFD7 /* NSDate+Extension.h */,
+				301A1FB029BD85E9002DCFD7 /* NSDate+Extension.m */,
 			);
 			path = XZCommonLib;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			files = (
 				301A1F8A29BD7B10002DCFD7 /* XZCommonLib.m in Sources */,
 				301A1FA529BD8336002DCFD7 /* XZDevice.m in Sources */,
+				301A1FB129BD85E9002DCFD7 /* NSDate+Extension.m in Sources */,
 				301A1F9329BD7C5E002DCFD7 /* UIColor+Hex.m in Sources */,
 				301A1FAB29BD84C9002DCFD7 /* NSString+Calculation.m in Sources */,
 				301A1FAE29BD8570002DCFD7 /* NSString+RegulerExpression.m in Sources */,
